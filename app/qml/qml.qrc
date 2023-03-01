@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>pages/LoadPluginsPage.qml</file>
+        <file>main.qml</file>
+        <file>common/ButtonToPage.qml</file>
+        <file>pages/PluginPage.qml</file>
+        <file>common/Line.qml</file>
+        <file>components/PropertyResolver.qml</file>
+        <file>components/NumberComponent.qml</file>
+        <file>components/ArrayComponent.qml</file>
+    </qresource>
+</RCC>
