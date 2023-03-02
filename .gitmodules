@@ -1,0 +1,3 @@
+[submodule "qmlplot"]
+	path = qmlplot
+	url = https://github.com/mosolovsa/qmlplot.git

@@ -3,6 +3,8 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 
+Q_IMPORT_PLUGIN(QmlPlotPlugin)
+
 
 int main(int argc, char *argv[])
 {

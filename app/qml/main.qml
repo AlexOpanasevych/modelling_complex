@@ -46,6 +46,22 @@ ApplicationWindow {
                     }
                 }
 
+                ButtonToPage {
+                    Layout.fillWidth: true
+                    text: "графік функції"
+
+                    highlighted: stackView.currentItem.objectName === "PlotPage"
+
+                    onClicked: {
+
+                        if(highlighted)
+                            return
+
+                        stackView.replace("pages/PlotPage.qml")
+                        pageLabel.text = text
+                    }
+                }
+
                 Repeater {
                     model: AppCore.sceneManager.components.menu
                     ButtonToPage {

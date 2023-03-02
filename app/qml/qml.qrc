@@ -8,5 +8,6 @@
         <file>components/PropertyResolver.qml</file>
         <file>components/NumberComponent.qml</file>
         <file>components/ArrayComponent.qml</file>
+        <file>pages/PlotPage.qml</file>
     </qresource>
 </RCC>
